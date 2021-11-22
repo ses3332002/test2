@@ -20,6 +20,16 @@ main {
   justify-content: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: rgb(255, 178, 11);
+  color: rgb(0, 28, 155);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /*!
  * 
  * antd v4.17.1
@@ -26690,15 +26700,5 @@ div.ant-typography-edit-content.ant-typography-rtl {
 }
 
 
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  min-height: 100vh;
-  background-color: rgb(255, 178, 11);
-  color: rgb(0, 28, 155);
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 /*# sourceMappingURL=index.87473532.css.map */
