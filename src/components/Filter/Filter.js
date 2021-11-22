@@ -1,5 +1,4 @@
 import { Select } from 'antd';
-import antdStyles from 'antd/dist/antd.css';
 
 const { Option } = Select;
 

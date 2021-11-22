@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Filter from '../Filter/Filter';
 import UsersList from '../UsersList/UsersList';
-import styles from './Users.css';
+import './Users.css';
 
 export default function Users() {
   const defaultGender = 'all';
