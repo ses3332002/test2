@@ -1,0 +1,27 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "testing parcel2",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.1",
+    "@parcel/transformer-sass": "^2.0.1",
+    "@parcel/transformer-webmanifest": "^2.0.1",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "antd": "^4.17.1",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2"
+  }
+}
