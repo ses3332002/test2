@@ -1,0 +1,1 @@
+{"mappings":"AAAA;EACI;;;AAGJ;EACI","sources":["src/components/App.scss"],"sourcesContent":["h1 {\n    color: red;\n}\n\n.main_header {\n    font-size: 20px;\n}"],"names":[],"version":3,"file":"index.2b223840.css.map","sourceRoot":"/__parcel_source_root/"}
