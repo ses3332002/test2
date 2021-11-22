@@ -3,7 +3,7 @@ import { Pagination, Table, Spin } from 'antd';
 import { Navigate } from 'react-router-dom';
 import { URL } from '../../data/variables';
 import { AppContext } from '../App/App';
-import 'antd/dist/antd.css';
+import antdStyles from 'antd/dist/antd.css';
 
 export default function UsersList({ selectedGender, defaultGender }) {
   const pageSize = 20;

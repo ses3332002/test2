@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
-import 'antd/dist/antd.css';
-import './Welcome.css';
+import antdStyles from 'antd/dist/antd.css';
+import styles from './Welcome.css';
 
 export default function Welcome() {
   return (

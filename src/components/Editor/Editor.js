@@ -3,8 +3,8 @@ import { Navigate } from 'react-router-dom';
 import { Select, Form, Input, Button } from 'antd';
 import { patchRequestOptions, URL, API_KEY } from '../../data/variables';
 import { AppContext } from '../App/App';
-import 'antd/dist/antd.css';
-import './Editor.css';
+import antdStyles from 'antd/dist/antd.css';
+import styles from './Editor.css';
 
 const { Option } = Select;
 
